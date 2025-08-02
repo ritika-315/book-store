@@ -20,6 +20,7 @@ VITE_APPID = "...."
 ```
 + Then run `` npm install `` commend to install node dependencies.
 - Finally, to run the project, use ``npm run dev`` command.
+- Frontend deployed on vercel="https://book-store-eight-lac.vercel.app"
 
 
 ### For Backend
@@ -37,3 +38,4 @@ Note: Please setup mongodb and change the MongoDB url and set your jwt secret ke
 ```
 
 - Finally, to run the project, use ``npm run start:dev`` command.
+- Backend deployed on render="https://book-store-htqx.onrender.com/"
