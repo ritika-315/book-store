@@ -11,12 +11,12 @@ Follow the below steps to run the project:
 ```
 >>> Stepup firebase app and configure the environment
 
-VITE_API_KEY = "AIzaSyCSo5GlDIM5bBKNvoiJDgNuX4eB7Ndp1_Y"
-VITE_Auth_Domain = "book-store-8d9fd.firebaseapp.com"
-VITE_PROJECT_ID = "book-store-8d9f"
-VITE_STORAGE_BUCKET = "book-store-8d9fd.firebasestorage.app"
-VITE_MESSAGING_SENDERID = "399144232503"
-VITE_APPID = "1:399144232503:web:f3a8766e91232ba549c1b2"
+VITE_API_KEY = "...."
+VITE_Auth_Domain = "...."
+VITE_PROJECT_ID = "...."
+VITE_STORAGE_BUCKET = "...."
+VITE_MESSAGING_SENDERID = "...."
+VITE_APPID = "...."
 ```
 + Then run `` npm install `` commend to install node dependencies.
 - Finally, to run the project, use ``npm run dev`` command.
