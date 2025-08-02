@@ -21,6 +21,7 @@ VITE_APPID = "...."
 + Then run `` npm install `` commend to install node dependencies.
 - Finally, to run the project, use ``npm run dev`` command.
 - Frontend deployed on vercel="https://book-store-eight-lac.vercel.app"
+- For Admin = "https://book-store-eight-lac.vercel.app/admin"
 
 
 ### For Backend
