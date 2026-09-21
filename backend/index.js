@@ -3,8 +3,17 @@ const app = express();
 const cors = require("cors");
 
 const mongoose = require("mongoose");
+require('dotenv').config();
+
+const missingVariables = ['DB_URL', 'JWT_SECRET_KEY'].filter(
+  (name) => !process.env[name] || !process.env[name].trim()
+);
+if (missingVariables.length > 0) {
+  console.error(`Missing required environment variables: ${missingVariables.join(', ')}`);
+  process.exit(1);
+}
+
 const port = process.env.PORT || 4000;
-require('dotenv').config()
 
 // middleware
 app.use(express.json());

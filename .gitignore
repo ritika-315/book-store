@@ -1,0 +1,4 @@
+# Local environment files at any repository depth
+.env
+.env.*
+!.env.example
